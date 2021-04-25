@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header{
+    background: url(./img/one-piece.jpg) no-repeat center center/cover ;
+    height: 200px;
+}
+
+/* start */
+#start{
+    opacity: 0.7;
+}
+#start img{
+    border-radius: 100%;
+
+}
+#start ul li{
+    font-size:  20px;
+}
+#start ul li a:hover{
+    border-bottom: 2px red solid;
+}
+
+/* img-blog */
+#img-blog{
+    background: url(./img/img-1.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+#cont-1{
+    margin-top: 5rem;
+}
+#cont-2{
+    margin-top: 5rem;
+ }
+
+
+ /* cards */
+ #blog-1{
+    
+    color: #17a2b8;
+     
+ }
+ #blog-1:hover{
+     color: white;
+     background-color:rgb(78, 78, 78) ;
+     transition: 0.2s ease-in;
+ }
+
+ /* authors */
+ #characters  img{
+     border-radius: 100%;
+     margin-top: -60px;
+ }
+ #characters .droids .fab{
+     color: #17a2b8;
+ }
+ #characters .droids .fas{
+    color: #17a2b8;
+}
+#characters .droids:hover .fab{
+    color: white;
+}
+#characters .droids:hover .fas{
+    color: white;
+}
+ .droids:hover{
+     color: white;
+     background-color: rgb(124, 76, 76);
+ }
+
+ /* watch */
+ .span{
+     color: yellowgreen;
+     background-color: yellowgreen;
+     color: white;
+     font-size: 18px;
+     padding: 5px;
+     border-radius: 10px;
+ }
+.son{
+    border-radius: 10px;
+    padding: 10px;
+}
+.star{
+    color: orange;
+}
+
+
+ 
